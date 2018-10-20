@@ -1,0 +1,3 @@
+[submodule "emensa"]
+	path = emensa
+	url = https://github.com/Dreyri/dbwt_emensa.git
