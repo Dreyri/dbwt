@@ -1,0 +1,50 @@
+#+TITLE: DBWT: Dossier
+#+AUTHOR: Frederik Engels (3129739)
+
+* Dossier
+
+** Meilenstein 1
+
+*** Aufgabe 1.2
+
+**** Wie wurde man die Seite implementieren mit den bisherigen Techniken (HTML)?
+
+Man wurde fuer jede der Detail seiten die ganze Seite copy pasten mussen und die Daten einzeln ersetzen, sowie Zusammenfassung, Zutaten, Preis, etc.
+Also alles andere wird unnoetig dupliziert.
+
+*** Aufgabe 1.4
+
+Einige Probleme beim absenden, wahrscheinlich zu tuen mit VPN.
+
+*** Aufgabe 1.6
+
+**** Moeglichkeiten Drop-down-Element in HTML?
+
+=<select>= tag fuer Drop-down-Box. Hier drinn =<option>= fuer optionen.
+=<optgroup>= um eine Gruppe zu definieren.
+
+     Bsp.
+
+#+BEGIN_SRC html
+<select>
+  <optgroup label=”hi” disabled>
+    <option value=”unique_val” disabled>Hello world!</option>
+  </optgroup>
+</select>
+#+END_SRC
+
+Ausschalten einer option durch =disabled= Attribut.
+
+**** Andere nutzliche Attribute?
+
+=selected= ist gut fuer eine default option bei page load.
+
+*** Lernziele
+
+**** GET vs POST request
+     
+- GET request schickt data ueber der URL zum server, POST request schickt dies ueber den Message Body.
+
+- Bei GET werden die Parameter in der Browser History gespeichert da sie Teil von der URL sind, Bei POST nicht.
+
+- Bei POST kann man auch Binaer Dateien schicken. GET kann nur ASCII
