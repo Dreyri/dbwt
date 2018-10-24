@@ -48,3 +48,7 @@ Ausschalten einer option durch =disabled= Attribut.
 - Bei GET werden die Parameter in der Browser History gespeichert da sie Teil von der URL sind, Bei POST nicht.
 
 - Bei POST kann man auch Binaer Dateien schicken. GET kann nur ASCII
+  
+**** Fragen
+
+Prioritaet ueber bootstrap css Optionen bekommen.
